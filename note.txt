@@ -1,0 +1,10 @@
+pip unstall virtualenv
+pip install flask
+py -m venv name //create virtual environment
+source venv/Scripts/activate // activate vertual environment
+deactivate // use to deactivate vertual environment
+python -m pip install --upgrade pip // to upgrade pip
+pip install flask-wtf
+pip install flask-dotnev
+pip freeze > requirements.txt
+pip install -r requirements.txt
